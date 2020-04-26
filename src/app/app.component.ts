@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBell } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'Inter-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Interventions';
+  faBell = faBell;
 }
